@@ -15,5 +15,5 @@ En ce qui concerne le logo, j’ai prit un chat et un chien qui sont sur un ordi
 
 ## Des maîtres.
 Sur le site, vous pouvez retrouver une base de données de plusieurs maîtres. Chacun a son propre profil. En voici quelques exemples:
-[Maître un](https://image.noelshack.com/fichiers/2019/24/2/1560257950-screenshot-2019-06-11-adopte-un-maitre.png)
-[Maitre deux](https://image.noelshack.com/fichiers/2019/24/2/1560257949-screenshot-2019-06-11-adopte-un-maitre-1.png)
+[!Maître un](https://image.noelshack.com/fichiers/2019/24/2/1560257950-screenshot-2019-06-11-adopte-un-maitre.png)
+[!Maitre deux](https://image.noelshack.com/fichiers/2019/24/2/1560257949-screenshot-2019-06-11-adopte-un-maitre-1.png)
