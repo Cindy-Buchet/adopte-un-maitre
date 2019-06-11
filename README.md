@@ -18,3 +18,35 @@ Sur le site, vous pouvez retrouver une base de données de plusieurs maîtres. C
 
 ![Maître un](https://image.noelshack.com/fichiers/2019/24/2/1560257950-screenshot-2019-06-11-adopte-un-maitre.png)
 ![Maitre deux](https://image.noelshack.com/fichiers/2019/24/2/1560257949-screenshot-2019-06-11-adopte-un-maitre-1.png)
+
+
+## Des animaux, des histoires.
+
+Selon le type de maître que vous choisirez, vous pourrez avoir des conversations différentes qui représentent chacune son histoire. En voici deux extraits:
+
+![Conversation](https://image.noelshack.com/fichiers/2019/24/2/1560259620-screenshot-2019-06-11-adopte-un-maitre-2.png)
+
+
+# Mes choix de design.
+## Les typographies.
+
+Pour les titres, j’utilise la police « Amaranth » et pour les textes j’utilise la police « Titillium Web ». J’ai choisi ces deux polices car elles sont fines et facilement lisibles. Car un animal déjà n’a pas l’habitude de se rendre sur Internet, donc il faut qu’il comprenne facilement. De plus, pendant ma recherche de site de rencontres, j’ai pu remarquer qu’ils utilisent que des polices sans-serif, ils varient les titres avec du gras et des caractères avec majuscule. Les polices serif contiennent des empattements et donc elles pourraient être moins nettes à cause de certaines définitions d’écrans. Alors, par facilité de lecture, j’ai préféré utiliser que des polices sans-serif en mettant principalement les titres en majuscules afin de bien faire la différence.
+
+
+## Les couleurs.
+
+De la joie, et encore de la joie… Oui, l’animal doit être joyeux de se rendre sur le site web pour commencer une nouvelle vie, et donc, nous devons plus facilement l’attirer! C’est pour cela que j’ai pris quelques couleurs vives afin de mieux attirer son attention. Le vert et le bleu. Le vert, lui, fait penser à l’espoir, le destin et la chance. Trois couleurs qui se raccordent très bien au thème du site. De plus, le vert est une couleur rafraîchissante, donc elle ne pourrait faire qu’attirer les animaux.
+
+Tandis que le bleu, lui, fait penser à la vie, car c’est une couleur qu’on rencontre partout quand on se promène, principalement le ciel. Le bleu fait penser aussi au rêve, le rêve de courir dans la nature, être heureux, avoir plein de caresses et de friandises. Le rêve d’une vie meilleure. J’ai également rajouté du blanc et du noir afin d’amener un peu de neutralité sur le site web, pour que ça ne pète pas trop le regard avec toutes les couleurs vives.
+[Couleurs](https://image.noelshack.com/fichiers/2019/24/2/1560259745-screenshot-2019-06-11-adopte-un-maitre-3.png)
+[Couleurs](https://image.noelshack.com/fichiers/2019/24/2/1560259745-screenshot-2019-06-11-adopte-un-maitre-4.png)
+
+# Ce que ce side project m'a apporté.
+## Mes problèmes rencontrés.
+
+J’ai pu rencontrer quelques problèmes lors de la conception de ce side projet! J’ai dû pour la première fois, penser à mon propre projet seule, sans groupe. Je devais penser à tout de a à z sans devoir pousser les choses trop loin car ici le but n’était pas de créer quelque chose de complet niveau ergonomique. C’était la première chose difficile pour moi car j’ai tendance à pousser les choses un peu trop loin par rapport à mes capacités et le temps. Ensuite, une fois mon projet en tête, je devais penser à comment mettre ça en place. Je devais me mettre à la place d’un animal et penser à ce qui pourrait l’intéresser s’il se rendrait sur un site web. Ce n’était pas évident car je devais sortir de l’ordinaire (oui, ce n’est pas du tout réel qu’un animal pourrait se rendre sur un site web).
+
+## Les solutions.
+
+J’ai donc pensé sagement à mon side project. Je me suis posée comme question qu’est-ce qu’il serait intéressant de trouver en premier lieu sur un site d’adoption de maîtres. Et bien évidemment, c’était les informations principales du maître. Son sexe, son âge, son lieu de résidence et le type d’habitation. Et également, savoir son caractère pour voir si ça colle avec l’animal, ce qu’il aime et ce qu’il n’aime pas.
+
