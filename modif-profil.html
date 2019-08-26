@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+
+  <title>Modification de mon profil | Adopte un maître | Side Project | Buchet Cindy</title>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="initial-scale=1">
+
+    <link rel="stylesheet" href="main.css" />
+    
+    <!-- Méta Google -->
+		<meta name="title" content="Adopte un maître" />
+		<meta name="description" content="Adopte un maître pour la vie mon ami!" />
+
+		<!-- Métas Facebook Opengraph -->
+    <meta property="og:title" content="Adopte un maître" />
+    <meta property="og:description" content="Adopte un maître pour la vie mon ami!" />
+    <meta property="og:url" content="http://2018.cindy-buchet.dwm.re/tfa/" />
+    <meta property="og:image" content="https://image.noelshack.com/fichiers/2018/32/2/1533644740-logo-grand.jpg" />
+    <meta property="og:type" content="website"/>
+
+    <!-- Métas Twitter Card -->
+    <meta name="twitter:title" content="Adopte un maître" />
+    <meta name="twitter:description" content="Adopte un maître pour la vie mon ami!" />
+    <meta name="twitter:url" content="http://2018.cindy-buchet.dwm.re/tfa/" />
+    <meta name="twitter:image" content="https://image.noelshack.com/fichiers/2018/32/2/1533644740-logo-grand.jpg" />
+
+
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-touch-icon.png">
+	    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+	    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+	    <link rel="manifest" href="assets/icon/site.webmanifest">
+	    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	    <meta name="msapplication-TileColor" content="#4293ad">
+	    <meta name="theme-color" content="#ffffff">
+</head>
+
+
+
+<body class="body__side">
+<header class="header__side">
+	<div class="container">
+		<a href="index.html"><img class="logo" src="assets/img/logo1.png" alt="logo"></a>
+      	<nav class="nav">
+        	<ul class="nav-list">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="recherche.html">Mon maître</a></li>
+              <li>
+                <a href="profil.html" class="encours">Mon profil</a>
+                	<ul class="sub-menu">
+                    	<li><a href="profil.html">Voir mon profil</a></li>
+                    	<li><a href="modif-profil.html" class="encours">Modifier mon profil</a></li>
+                	</ul>
+              </li>
+              <li><a href="apropos.html">A propos</a></li>
+              <li><a href="casestudy.html">Case study</a></li>
+        	</ul>
+    	</nav>
+    <p class="text__logo">Adopte un maître</p>
+  </div>
+</header>
+
+<section>
+	<div class="container">
+	<div id="form-profil">
+		<p id="message"></p>
+
+
+
+
+		<form name="choix">
+		<h1 class="title title__2">Modifier mon profil</h1>
+		
+		<div class="form__one">
+
+			<div class="col__form">
+				<div class="margin choix__nom">
+					<label for="firstname">
+					  <span><img src="assets/img/nom.png" alt="ton nom" /></span>
+					  <input id="firstname" type="text" placeholder="Ton nom" required>
+					</label>
+				</div>
+
+				<div class="margin choix__sexe">
+					<label for="sexe">
+					  <span><img src="assets/img/sex.png" alt="ton sexe" /></span>
+					  	<select name="sexe" id="sexe" required>
+					  		<option class="clair" value="" disabled selected hidden>Ton sexe</option>
+							<option value="Femelle">Femelle</option>
+							<option value="Mâle">Mâle</option>
+						</select>
+					</label>
+				</div>
+
+				<div class="margin choix__age">
+					<label for="age">
+					  <span><img src="assets/img/years.png" alt="ton âge" /></span>
+					  	<input class="input_age" type="date" name="age" id="age" />
+					</label>
+				</div>
+
+				<div class="margin choix__province">
+					<label for="province">
+						<span><img src="assets/img/province.png" alt="ta province" /></span>
+					  	<select name="province" id="province">
+					  		<option class="clair" value="" disabled selected hidden>Ta province</option>
+							<option value="Hainaut">Hainaut</option>
+							<option value="Liège">Liège</option>
+							<option value="Brabant Wallon">Brabant Wallon</option>
+							<option value="Mons">Mons</option>
+							<option value="Namur">Namur</option>
+						</select>
+					</label>
+				</div>
+
+				<div class="margin choix__habitat">
+					<label for="habitat">
+						<span><img src="assets/img/housing.png" alt="ton type d'habitation" /></span>
+						<select name="habitat" id="habitat" >
+							<option class="clair" value="" disabled selected hidden>Ton type d'habitat</option>
+							<option value="Abandonné">Abandonné</option>
+							<option value="Refuge">Refuge</option>
+							<option value="Élevage">Élevage</option>
+						</select>
+					</label>
+				</div>
+
+				<div class="margin choix__type">
+					<label for="choix_type">
+					<span><img src="assets/img/animal.png" alt="ton type"></span>
+						<select id="choix_type" name="choix_type" OnChange="affiche_formulaire();">
+							<option class="clair" value="" disabled selected hidden>Ton type</option>
+							<option value="Chat">Chat</option>
+							<option value="Chien">Chien</option>
+						</select>
+						<br/>
+					</label>
+				</div>
+
+
+				<div class="margin choix__race">
+					<div id="form_base">
+						<label for="race">
+						<span><img src="assets/img/race.png" alt="ta race" /></span>
+							<select name="race" id="race" OnChange="affiche_formulaire();">
+								<option value="" disabled selected>Ta race</option>
+							</select>
+						</label>
+					</div>
+
+					<div id="form_chat" style="display: none;">
+						<label for="race_chat">
+						<span><img src="assets/img/race.png" alt="ta race" /></span>
+							<select name="race_chat" id="race_chat" OnChange="affiche_formulaire();">
+								<option value="" disabled selected hidden>Ta race</option>
+							    <option value="Maine Coon">Maine Coon</option>
+							    <option value="Siamois">Siamois</option>
+							    <option value="Bengal">Bengal</option>
+							    <option value="Sacré de Birmanie">Sacré de Birmanie</option>
+							    <option value="Persan">Persan</option>
+							    <option value="Norvégien">Norvégien</option>
+							    <option value="Bleu Russe">Bleu Russe</option>
+							    <option value="Angora Turc">Angora Turc</option>
+							    <option value="Savannah">Savannah</option>
+							    <option value="Ragdoll">Ragdoll</option>
+							</select>
+						</label>
+					</div>
+
+					<div id="form_chien" style="display: none">
+
+						<label for="race_chien">
+						<span><img src="assets/img/race.png" alt="ta race" /></span>
+							<select name="race_chien" id="race_chien" OnChange="affiche_formulaire();">
+								<option value="" disabled selected hidden>Ta race</option>
+							    <option value="Husky">Husky</option>
+							    <option value="Labrador">Labrador</option>
+							    <option value="Berger Allemand">Berger Allemand</option>
+							    <option value="Bichon">Bichon</option>
+							    <option value="Golden Retriever">Golden Retriever</option>
+							    <option value="Malinois">Malinois</option>
+							    <option value="Labrador">Labrador</option>
+							    <option value="Pitbull">Pitbull</option>
+							    <option value="Jack Russel">Jack Russel</option>
+							    <option value="Beagle">Beagle</option>
+							</select>
+						</label>
+					</div>
+				</div> <!-- Fermeture pour la partie des races -->
+					
+			</div> <!-- Fermeture pour la class col__form -->
+				<div class="margin">
+						<span><img src="assets/img/text.png" alt="ta présentation" class="img__text" /></span>
+						<textarea id="textpres" placeholder="Décris-toi en quelques lignes" required="required"></textarea>
+				</div>
+		</div> <!-- Fermeture pour le 1e form__one -->
+		<div class="form__two">
+			<div class="multiselect select select1">
+	    		<div class="selectBox">
+	    			<select>
+	        			<option>Tes caractères</option>
+	    			</select>
+	    			<div class="overSelect"></div>
+	    		</div>
+
+	    		<div class="scrollbar scrollbar_css" id="checkboxes">
+	    			<div class="scroll__form">
+		    			<p id="chara">
+		    			<label>
+		        			<input type="checkbox" value="affectueux" name="carac"/>Affectueux</label>
+		    			<label>
+		        			<input type="checkbox" value="agressif" name="carac" />Agressif</label>
+		    			<label>
+		        			<input type="checkbox" value="attentionné" name="carac" />Attentionné</label>
+		        		<label>
+		        			<input type="checkbox" value="autonome" name="carac" />Autonome</label>
+		        		<label>
+		        			<input type="checkbox" value="aventureux" name="carac" />Aventureux</label>
+		        		<label>
+		        			<input type="checkbox" value="calme" name="carac" />Calme</label>
+		        		<label>
+		        			<input type="checkbox" value="capricieux" name="carac" />Capricieux</label>
+		        		<label>
+		        			<input type="checkbox" value="comique" name="carac" />Comique</label>
+		        		<label>
+		        			<input type="checkbox" value="doux" name="carac" />Doux</label>
+		        		<label>
+		        			<input type="checkbox" value="fidèle" name="carac" />Fidèle</label>
+		        		<label>
+		        			<input type="checkbox" value="fou" name="carac" />Fou</label>
+		        		<label>
+		        			<input type="checkbox" value="gai" name="carac" />Gai</label>
+		        		<label>
+		        			<input type="checkbox" value="gentil" name="carac" />Gentil</label>
+		        		<label>
+		        			<input type="checkbox" value="hyperactif" name="carac" />Hyperactif</label>
+		        		<label>
+		        			<input type="checkbox" value="joueur" name="carac" />Joueur</label>
+		        		<label>
+		        			<input type="checkbox" value="nerveux" name="carac" />Nerveux</label>
+		        		<label>
+		        			<input type="checkbox" value="paresseux" name="carac" />Paresseux</label>
+		        		<label>
+		        			<input type="checkbox" value="protecteur" name="carac" />Protecteur</label>
+		        		<label>
+		        			<input type="checkbox" value="réservé" name="carac" />Réservé</label>
+		        		<label>
+		        			<input type="checkbox" value="sociable" name="carac" />Sociable</label>
+		        		<label>
+		        			<input type="checkbox" value="solitaire" name="carac" />Solitaire</label>
+		        		<label>
+		        			<input type="checkbox" value="sportif" name="carac" />Sportif</label>
+		        		</p>
+		        	</div>
+	    		</div>
+	  		</div>
+
+	  		<div class="multiselect select select2">
+	    		<div class="selectBox">
+	    			<select>
+	        			<option>Tu n’aimes pas/Tu aimes</option>
+	    			</select>
+	    			<div class="overSelect"></div>
+	    		</div>
+	    		<div class="scrollbar scrollbar_css" id="checkboxes2">
+	    			<div class="scroll__form form__choix">
+		    			<p class="ouinon">Non/Oui</p>
+		        		<label class="switch">
+		        			<input type="checkbox" value="escalader" name="aime" />Escalader
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="être sale" name="aime" />Être sale
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="être habillé" name="aime" />Être habillé
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="fouiller" name="aime" />Fouiller
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="l'été" name="aime" />L'été
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="l'hiver" name="aime" />L'hiver
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="le poisson" name="aime" />Le poisson
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les chaussons" name="aime" />Les chaussons
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les boîtes" name="aime" />Les boîtes
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les bonbons" name="aime" />Les bonbons
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les câlins" name="aime" />Les câlins
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les chats" name="aime" />Les chats
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="les chiens" name="aime" />Les chiens
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+		        			<input type="checkbox" value="manger" name="aime" />Manger
+		        			<span class="slider round"></span>
+		        		</label>
+		        		<label class="switch">
+	        				<input type="checkbox" value="voler" name="aime" />Voler
+		        			<span class="slider round"></span>
+	        			</label>
+	        		</div>
+	    		</div>
+	  		</div>
+		</div>
+	</form>
+
+			<div class="col__right clear">
+				<input type="button" id="form-submit" value="Enregistrer" class="bouton open" onclick="masquer_div('chat__masquer');" />
+			</div>
+	<div id="chat__masquer">
+		<div class="popup">
+		      <p>Profil modifié avec succès, bravo!</p>
+		      <a href="profil.html" class="bouton__profil">Voir le profil</a>
+		</div>
+   </div>
+
+			<div class="col__right clear">
+				<input class="bouton__supp" type="button" id="form-submit-suppression" value="Supprimer mon profil" />
+			</div>
+	</div> <!-- Fermeture pour form__profil -->
+
+
+	</div> <!-- Fermeture pour container -->
+</section>
+
+
+
+<footer>
+	<div class="container">
+  	<div class="img__footer"></div>
+		<div class="text__footer">
+
+			<img src="assets/img/cindy.jpg" alt="Cindy">
+			<nav class="nav__footer">
+				<ul class="nav__footer--el">
+					<li><a href="index.html">Accueil</a></li>
+		            <li><a href="recherche.html">Mon maître</a></li>
+		            <li><a href="profil.html">Mon profil</a></li>
+		            <li><a href="apropos.html">A propos</a></li>
+		            <li><a href="casestudy.html">Case study</a></li>
+                	<li><a href="404.html">404</a></li>
+				</ul>
+			</nav>
+			<div class="text__small">
+				<p>Site créé par Buchet Cindy dans le cadre des études en Design Web & Mobile à la Haute École Albert Jacquard à Namur.</p>
+			</div>
+		</div>
+	</div>
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="assets/js/modif-profil.js"></script>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/img.js"></script>
+<script src="assets/js/supprimer.js"></script>
+
+</body>
+
+</html>

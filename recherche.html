@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    
+    <title>Mon maître | Adopte un maître | Side Project | Buchet Cindy</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1">
+    
+
+    <link rel="stylesheet" href="main.css" />
+    
+    <!-- Méta Google -->
+    <meta name="title" content="Adopte un maître" />
+    <meta name="description" content="Adopte un maître pour la vie mon ami!" />
+
+    <!-- Métas Facebook Opengraph -->
+    <meta property="og:title" content="Adopte un maître" />
+    <meta property="og:description" content="Adopte un maître pour la vie mon ami!" />
+    <meta property="og:url" content="http://2018.cindy-buchet.dwm.re/tfa/" />
+    <meta property="og:image" content="https://image.noelshack.com/fichiers/2018/32/2/1533644740-logo-grand.jpg" />
+    <meta property="og:type" content="website"/>
+
+    <!-- Métas Twitter Card -->
+    <meta name="twitter:title" content="Adopte un maître" />
+    <meta name="twitter:description" content="Adopte un maître pour la vie mon ami!" />
+    <meta name="twitter:url" content="http://2018.cindy-buchet.dwm.re/tfa/" />
+    <meta name="twitter:image" content="https://image.noelshack.com/fichiers/2018/32/2/1533644740-logo-grand.jpg" />
+
+
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+      <link rel="manifest" href="assets/icon/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#4293ad">
+      <meta name="theme-color" content="#ffffff">
+    
+  </head>
+<body class="body__side">
+<header class="header__side">
+  <div class="container">
+      <a href="index.html"><img class="logo" src="assets/img/logo1.png" alt="logo"></a>
+      <nav class="nav">
+          <ul class="nav-list">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="recherche.html" class="encours">Mon maître</a></li>
+              <li>
+                <a href="profil.html">Mon profil</a>
+                  <ul class="sub-menu">
+                      <li><a href="profil.html">Voir mon profil</a></li>
+                      <li><a href="modif-profil.html">Modifier mon profil</a></li>
+                  </ul>
+              </li>
+              <li><a href="apropos.html">A propos</a></li>
+              <li><a href="casestudy.html">Case study</a></li>
+          </ul>
+      </nav>
+    <p class="text__logo">Adopte un maître</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section__float filtre box">
+      <h1 class="title title__2">Filtrer</h1>
+      <div class="filtre__sex">
+
+        <h3 class="accordion">Sexe</h3>
+        <div class="panel sex__espace">
+          <input class="filter" type="radio" name="radiosex" data-property="sex" id="btn__tout" value="" /> <label for="btn__tout" class="label__tout">Tout</label>
+          <input class="filter" data-property="sex" type="radio" name="radiosex" value="Femme" id="btn__femme"/> <label for="btn__femme" class="label__femme">Femme</label>
+          <input data-property="sex"  class="filter" type="radio" name="radiosex" id="btn__homme" value="Homme" /> <label for="btn__homme" class="label__homme">Homme</label>
+        </div>
+          
+      </div>
+
+      <div class="filtre__province">
+        <h3 class="accordion">Province</h3>
+          <div class="panel">
+            <label>
+            <input class="filter" data-property="province" value="Namur" type="radio" name="check-box" id="btn__namur" /> <span>Namur</span>
+          </label>
+          <label>
+            <input class="filter" data-property="province" value="Hainaut" type="radio" name="check-box" id="btn__hainaut" /> <span>Hainaut</span>
+          </label>
+          <label>
+            <input class="filter" data-property="province" value="Luxembourg" type="radio" name="check-box" id="btn__luxembourg" /> <span>Luxembourg</span>
+          </label>
+          <label>
+            <input class="filter" data-property="province" value="Liège" type="radio" name="check-box" id="btn__liege" /> <span>Liège</span>
+          </label>
+          <label>
+            <input class="filter" data-property="province" value="Brabant Wallon" type="radio" name="check-box" id="btn__brabant" /> <span>Brabant Wallon</span>
+          </label>
+          <label>
+          </div>
+      </div>
+
+
+      <div class="filtre__carac">
+        <h3 class="accordion">Caractère</h3>
+        <div class="panel">
+        <div class="wrapper">
+          <label>
+            <input class="filter" data-property="autonome" value="autonome" type="checkbox" name="check-box" id="btn__autonome" /> <span>Autonome</span>
+          </label>
+          <label>
+            <input class="filter" data-property="bordelique" value="bordelique" type="checkbox" name="check-box" id="btn__bordelique" /> <span>Bordelique</span>
+          </label>
+          <label>
+          <input class="filter" data-property="calme" value="calme" type="checkbox" name="check-box" id="btn__calme" /> <span>Calme</span>
+          </label>
+          <label>
+            <input class="filter" data-property="comique" value="comique" type="checkbox" name="check-box" id="btn__comique" /> <span>Comique</span>
+          </label>
+          <label>
+            <input class="filter" data-property="doux" value="doux" type="checkbox" name="check-box" id="btn__doux" /> <span>Doux</span>
+          </label>
+          <label>
+            <input class="filter" data-property="fidèle" value="fidèle" type="checkbox" name="check-box" id="btn__fidele" /> <span>Fidèle</span>
+          </label>
+          <label>
+            <input class="filter" data-property="fou" value="fou" type="checkbox" name="check-box" id="btn__fou" /> <span>Fou</span>
+          </label>
+          <label>
+            <input class="filter" data-property="gentil" value="gentil" type="checkbox" name="check-box" id="btn__gentil" /> <span>Gentil</span>
+          </label>
+          <label>
+            <input class="filter" data-property="hyperactif" value="hyperactif" type="checkbox" name="check-box" id="btn__hyperactif" /> <span>Hyperactif</span>
+          </label>
+          <label>
+            <input class="filter" data-property="joueur" value="joueur" type="checkbox" name="check-box" id="btn__joueur" /> <span>Joueur</span>
+          </label>
+          <label>
+            <input class="filter" data-property="maniaque" value="maniaque" type="checkbox" name="check-box" id="btn__maniaque" /> <span>Maniaque</span>
+          </label>
+          <label>
+            <input class="filter" data-property="nerveux" value="nerveux" type="checkbox" name="check-box" id="btn__nerveux" /> <span>Nerveux</span>
+          </label>
+          <label>
+            <input class="filter" data-property="ordonné" value="ordonné" type="checkbox" name="check-box" id="btn__ordonne" /> <span>Ordonné</span>
+          </label>
+          <label>
+            <input class="filter" data-property="sociable" value="sociable" type="checkbox" name="check-box" id="btn__sociable" /> <span>Sociable</span>
+          </label>
+          <label>
+            <input class="filter" data-property="solitaire" value="solitaire" type="checkbox" name="check-box" id="btn__solitaire" /> <span>Solitaire</span>
+          </label>
+          <label>
+            <input class="filter" data-property="sportif" value="sportif" type="checkbox" name="check-box" id="btn__sportif" /> <span>Sportif</span>
+          </label>
+          </ul>
+        </div>
+        </div>
+      </div>
+        
+        <div class="filtre__veut">
+          <h3 class="accordion">Veut un</h3>
+          <div class="panel">
+            <label>
+              <input class="filter filter__chat" data-property="animal" value="cat" type="radio" name="check-box" id="chat" /> <img src="assets/img/filtre-chat.png" class="filtre-chat" alt="choix chat"> 
+            </label>
+            <label>
+              <input class="filter filter__chien" data-property="animal" value="dog" type="radio" name="check-box" id="chien" /> <img src="assets/img/filtre-chien.png" class="filtre-chat" alt="choix chien">
+            </label>
+          </div>
+        </div>
+      </div>
+
+    <div class="resultat__recherche">
+      <ul class="list" id="contenu_membres"></ul>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="container">
+  <div class="img__footer"></div>
+    <div class="text__footer">
+      
+      <img src="assets/img/cindy.jpg" alt="Cindy">
+      <nav class="nav__footer">
+        <ul class="nav__footer--el">
+          <li><a href="index.html">Accueil</a></li>
+                <li><a href="recherche.html">Mon maître</a></li>
+                <li><a href="profil.html">Mon profil</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="casestudy.html">Case study</a></li>
+                <li><a href="404.html">404</a></li>
+        </ul>
+      </nav>
+      <div class="text__small">
+        <p>Site créé par Buchet Cindy dans le cadre des études en Design Web & Mobile à la Haute École Albert Jacquard à Namur.</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+    
+  <script src="assets/js/menu.js"></script>
+	<script src="assets/json/membres.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/accordion.js"></script>
+	
+  </body>
+</html>
