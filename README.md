@@ -14,17 +14,16 @@ Le nom du site est « Adopte un maître ». Il est clair et directement compréh
 En ce qui concerne le logo, j’ai prit un chat et un chien qui sont sur un ordinateur. Quand on voit ça, on voit directement le côté « loufoque » du site web, car c’est impossible d’imaginer un chat ou un chien allant sur un ordinateur.
 
 ## Des maîtres.
-Sur le site, vous pouvez retrouver une base de données de plusieurs maîtres. Chacun a son propre profil. En voici quelques exemples:
+Sur le site, vous pouvez retrouver une base de données de plusieurs maîtres. Chacun a son propre profil. En voici un exemple:
 
-![Maître un](https://image.noelshack.com/fichiers/2019/24/2/1560257950-screenshot-2019-06-11-adopte-un-maitre.png)
-![Maitre deux](https://image.noelshack.com/fichiers/2019/24/2/1560257949-screenshot-2019-06-11-adopte-un-maitre-1.png)
+![Maîtres](http://image.noelshack.com/fichiers/2021/08/4/1614255376-maitres.jpg)
 
 
 ## Des animaux, des histoires.
 
-Selon le type de maître que vous choisirez, vous pourrez avoir des conversations différentes qui représentent chacune son histoire. En voici deux extraits:
+Selon le type de maître que vous choisirez, vous pourrez avoir des conversations différentes qui représentent chacune son histoire. En voici un extrait:
 
-![Conversation](https://image.noelshack.com/fichiers/2019/24/2/1560259620-screenshot-2019-06-11-adopte-un-maitre-2.png)
+![Conversation](https://miro.medium.com/max/288/1*G1or3WXEup7x8O0LCiooxA.jpeg)
 
 
 # Mes choix de design.
@@ -38,8 +37,7 @@ Pour les titres, j’utilise la police « Amaranth » et pour les textes j’uti
 De la joie, et encore de la joie… Oui, l’animal doit être joyeux de se rendre sur le site web pour commencer une nouvelle vie, et donc, nous devons plus facilement l’attirer! C’est pour cela que j’ai pris quelques couleurs vives afin de mieux attirer son attention. Le vert et le bleu. Le vert, lui, fait penser à l’espoir, le destin et la chance. Trois couleurs qui se raccordent très bien au thème du site. De plus, le vert est une couleur rafraîchissante, donc elle ne pourrait faire qu’attirer les animaux.
 
 Tandis que le bleu, lui, fait penser à la vie, car c’est une couleur qu’on rencontre partout quand on se promène, principalement le ciel. Le bleu fait penser aussi au rêve, le rêve de courir dans la nature, être heureux, avoir plein de caresses et de friandises. Le rêve d’une vie meilleure. J’ai également rajouté du blanc et du noir afin d’amener un peu de neutralité sur le site web, pour que ça ne pète pas trop le regard avec toutes les couleurs vives.
-![Couleurs](https://image.noelshack.com/fichiers/2019/24/2/1560259745-screenshot-2019-06-11-adopte-un-maitre-3.png)
-![Couleurs](https://image.noelshack.com/fichiers/2019/24/2/1560259745-screenshot-2019-06-11-adopte-un-maitre-4.png)
+![Couleurs](http://image.noelshack.com/fichiers/2021/08/4/1614255572-couleur.png)
 
 # Ce que ce side project m'a apporté.
 ## Mes problèmes rencontrés.
