@@ -37,6 +37,7 @@ Pour les titres, j’utilise la police « Amaranth » et pour les textes j’uti
 De la joie, et encore de la joie… Oui, l’animal doit être joyeux de se rendre sur le site web pour commencer une nouvelle vie, et donc, nous devons plus facilement l’attirer! C’est pour cela que j’ai pris quelques couleurs vives afin de mieux attirer son attention. Le vert et le bleu. Le vert, lui, fait penser à l’espoir, le destin et la chance. Trois couleurs qui se raccordent très bien au thème du site. De plus, le vert est une couleur rafraîchissante, donc elle ne pourrait faire qu’attirer les animaux.
 
 Tandis que le bleu, lui, fait penser à la vie, car c’est une couleur qu’on rencontre partout quand on se promène, principalement le ciel. Le bleu fait penser aussi au rêve, le rêve de courir dans la nature, être heureux, avoir plein de caresses et de friandises. Le rêve d’une vie meilleure. J’ai également rajouté du blanc et du noir afin d’amener un peu de neutralité sur le site web, pour que ça ne pète pas trop le regard avec toutes les couleurs vives.
+
 ![Couleurs](http://image.noelshack.com/fichiers/2021/08/4/1614255572-couleur.png)
 
 # Ce que ce side project m'a apporté.
